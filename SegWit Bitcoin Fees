@@ -1,144 +1,143 @@
+Fees Projections with SegWit opt-in
 
-Segregated Witness Fees Projections (Network is stressed, fasts tx fee is high)
-
-- 2 Standard Outputs
+- The example transactions have 2 Standard Outputs
+- Vins quantity depends on tx amount \ coin selection \ and may vary with no chances
 
 - Average P2SH 2-on-3 Vin Size:
   - Segwit: 74 bytes
   - Non Segwit: 209 bytes
 
-- Vins quantity depends on tx amount \ coin selection \ and may vary with no chances
 
-- Fees (Source, bitcoinfees.21.co @ 24-08-2017)
-10m = 500sat\b
-1h = 400sat\b
-6h = 300sat\b
-12h = 120sat\b
-24h = 50sat\b
+- Fees (Source, bitcoinfees.21.co @ 24-08-2017, Network is stressed, fees are high than average)
+  - 10m = 500sat\b
+  - 1h = 400sat\b
+  - 6h = 300sat\b
+  - 12h = 120sat\b
+  - 24h = 50sat\b
 
              =============== Fees Before Segwit ===============
 
-Vins: 1  | TxWeight: 339  | Speed: (24h) | Cost(BTC): 0.00016950 | Cost(EUR):  0.61
-Vins: 1  | TxWeight: 339  | Speed: (12h) | Cost(BTC): 0.00040680 | Cost(EUR):  1.46
-Vins: 1  | TxWeight: 339  | Speed: (6h)  | Cost(BTC): 0.00101700 | Cost(EUR):  3.66
-Vins: 1  | TxWeight: 339  | Speed: (1h)  | Cost(BTC): 0.00135600 | Cost(EUR):  4.88
-Vins: 1  | TxWeight: 339  | Speed: (10m) | Cost(BTC): 0.00169500 | Cost(EUR):  6.10
+Vins: 1  | TxSize: 339  | Speed: (24h) | Cost(BTC): 0.00016950 | Cost(EUR):  0.61
+Vins: 1  | TxSize: 339  | Speed: (12h) | Cost(BTC): 0.00040680 | Cost(EUR):  1.46
+Vins: 1  | TxSize: 339  | Speed: (6h)  | Cost(BTC): 0.00101700 | Cost(EUR):  3.66
+Vins: 1  | TxSize: 339  | Speed: (1h)  | Cost(BTC): 0.00135600 | Cost(EUR):  4.88
+Vins: 1  | TxSize: 339  | Speed: (10m) | Cost(BTC): 0.00169500 | Cost(EUR):  6.10
 -----------------------------------------------------------------------------------
-Vins: 2  | TxWeight: 548  | Speed: (24h) | Cost(BTC): 0.00027400 | Cost(EUR):  0.99
-Vins: 2  | TxWeight: 548  | Speed: (12h) | Cost(BTC): 0.00065760 | Cost(EUR):  2.37
-Vins: 2  | TxWeight: 548  | Speed: (6h)  | Cost(BTC): 0.00164400 | Cost(EUR):  5.92
-Vins: 2  | TxWeight: 548  | Speed: (1h)  | Cost(BTC): 0.00219200 | Cost(EUR):  7.89
-Vins: 2  | TxWeight: 548  | Speed: (10m) | Cost(BTC): 0.00274000 | Cost(EUR):  9.86
+Vins: 2  | TxSize: 548  | Speed: (24h) | Cost(BTC): 0.00027400 | Cost(EUR):  0.99
+Vins: 2  | TxSize: 548  | Speed: (12h) | Cost(BTC): 0.00065760 | Cost(EUR):  2.37
+Vins: 2  | TxSize: 548  | Speed: (6h)  | Cost(BTC): 0.00164400 | Cost(EUR):  5.92
+Vins: 2  | TxSize: 548  | Speed: (1h)  | Cost(BTC): 0.00219200 | Cost(EUR):  7.89
+Vins: 2  | TxSize: 548  | Speed: (10m) | Cost(BTC): 0.00274000 | Cost(EUR):  9.86
 -----------------------------------------------------------------------------------
-Vins: 3  | TxWeight: 757  | Speed: (24h) | Cost(BTC): 0.00037850 | Cost(EUR):  1.36
-Vins: 3  | TxWeight: 757  | Speed: (12h) | Cost(BTC): 0.00090840 | Cost(EUR):  3.27
-Vins: 3  | TxWeight: 757  | Speed: (6h)  | Cost(BTC): 0.00227100 | Cost(EUR):  8.18
-Vins: 3  | TxWeight: 757  | Speed: (1h)  | Cost(BTC): 0.00302800 | Cost(EUR): 10.90
-Vins: 3  | TxWeight: 757  | Speed: (10m) | Cost(BTC): 0.00378500 | Cost(EUR): 13.63
+Vins: 3  | TxSize: 757  | Speed: (24h) | Cost(BTC): 0.00037850 | Cost(EUR):  1.36
+Vins: 3  | TxSize: 757  | Speed: (12h) | Cost(BTC): 0.00090840 | Cost(EUR):  3.27
+Vins: 3  | TxSize: 757  | Speed: (6h)  | Cost(BTC): 0.00227100 | Cost(EUR):  8.18
+Vins: 3  | TxSize: 757  | Speed: (1h)  | Cost(BTC): 0.00302800 | Cost(EUR): 10.90
+Vins: 3  | TxSize: 757  | Speed: (10m) | Cost(BTC): 0.00378500 | Cost(EUR): 13.63
 -----------------------------------------------------------------------------------
-Vins: 4  | TxWeight: 966  | Speed: (24h) | Cost(BTC): 0.00048300 | Cost(EUR):  1.74
-Vins: 4  | TxWeight: 966  | Speed: (12h) | Cost(BTC): 0.00115920 | Cost(EUR):  4.17
-Vins: 4  | TxWeight: 966  | Speed: (6h)  | Cost(BTC): 0.00289800 | Cost(EUR): 10.43
-Vins: 4  | TxWeight: 966  | Speed: (1h)  | Cost(BTC): 0.00386400 | Cost(EUR): 13.91
-Vins: 4  | TxWeight: 966  | Speed: (10m) | Cost(BTC): 0.00483000 | Cost(EUR): 17.39
+Vins: 4  | TxSize: 966  | Speed: (24h) | Cost(BTC): 0.00048300 | Cost(EUR):  1.74
+Vins: 4  | TxSize: 966  | Speed: (12h) | Cost(BTC): 0.00115920 | Cost(EUR):  4.17
+Vins: 4  | TxSize: 966  | Speed: (6h)  | Cost(BTC): 0.00289800 | Cost(EUR): 10.43
+Vins: 4  | TxSize: 966  | Speed: (1h)  | Cost(BTC): 0.00386400 | Cost(EUR): 13.91
+Vins: 4  | TxSize: 966  | Speed: (10m) | Cost(BTC): 0.00483000 | Cost(EUR): 17.39
 -----------------------------------------------------------------------------------
-Vins: 5  | TxWeight: 1175 | Speed: (24h) | Cost(BTC): 0.00058750 | Cost(EUR):  2.12
-Vins: 5  | TxWeight: 1175 | Speed: (12h) | Cost(BTC): 0.00141000 | Cost(EUR):  5.08
-Vins: 5  | TxWeight: 1175 | Speed: (6h)  | Cost(BTC): 0.00352500 | Cost(EUR): 12.69
-Vins: 5  | TxWeight: 1175 | Speed: (1h)  | Cost(BTC): 0.00470000 | Cost(EUR): 16.92
-Vins: 5  | TxWeight: 1175 | Speed: (10m) | Cost(BTC): 0.00587500 | Cost(EUR): 21.15
+Vins: 5  | TxSize: 1175 | Speed: (24h) | Cost(BTC): 0.00058750 | Cost(EUR):  2.12
+Vins: 5  | TxSize: 1175 | Speed: (12h) | Cost(BTC): 0.00141000 | Cost(EUR):  5.08
+Vins: 5  | TxSize: 1175 | Speed: (6h)  | Cost(BTC): 0.00352500 | Cost(EUR): 12.69
+Vins: 5  | TxSize: 1175 | Speed: (1h)  | Cost(BTC): 0.00470000 | Cost(EUR): 16.92
+Vins: 5  | TxSize: 1175 | Speed: (10m) | Cost(BTC): 0.00587500 | Cost(EUR): 21.15
 -----------------------------------------------------------------------------------
-Vins: 6  | TxWeight: 1384 | Speed: (24h) | Cost(BTC): 0.00069200 | Cost(EUR):  2.49
-Vins: 6  | TxWeight: 1384 | Speed: (12h) | Cost(BTC): 0.00166080 | Cost(EUR):  5.98
-Vins: 6  | TxWeight: 1384 | Speed: (6h)  | Cost(BTC): 0.00415200 | Cost(EUR): 14.95
-Vins: 6  | TxWeight: 1384 | Speed: (1h)  | Cost(BTC): 0.00553600 | Cost(EUR): 19.93
-Vins: 6  | TxWeight: 1384 | Speed: (10m) | Cost(BTC): 0.00692000 | Cost(EUR): 24.91
+Vins: 6  | TxSize: 1384 | Speed: (24h) | Cost(BTC): 0.00069200 | Cost(EUR):  2.49
+Vins: 6  | TxSize: 1384 | Speed: (12h) | Cost(BTC): 0.00166080 | Cost(EUR):  5.98
+Vins: 6  | TxSize: 1384 | Speed: (6h)  | Cost(BTC): 0.00415200 | Cost(EUR): 14.95
+Vins: 6  | TxSize: 1384 | Speed: (1h)  | Cost(BTC): 0.00553600 | Cost(EUR): 19.93
+Vins: 6  | TxSize: 1384 | Speed: (10m) | Cost(BTC): 0.00692000 | Cost(EUR): 24.91
 -----------------------------------------------------------------------------------
-Vins: 7  | TxWeight: 1593 | Speed: (24h) | Cost(BTC): 0.00079650 | Cost(EUR):  2.87
-Vins: 7  | TxWeight: 1593 | Speed: (12h) | Cost(BTC): 0.00191160 | Cost(EUR):  6.88
-Vins: 7  | TxWeight: 1593 | Speed: (6h)  | Cost(BTC): 0.00477900 | Cost(EUR): 17.20
-Vins: 7  | TxWeight: 1593 | Speed: (1h)  | Cost(BTC): 0.00637200 | Cost(EUR): 22.94
-Vins: 7  | TxWeight: 1593 | Speed: (10m) | Cost(BTC): 0.00796500 | Cost(EUR): 28.67
+Vins: 7  | TxSize: 1593 | Speed: (24h) | Cost(BTC): 0.00079650 | Cost(EUR):  2.87
+Vins: 7  | TxSize: 1593 | Speed: (12h) | Cost(BTC): 0.00191160 | Cost(EUR):  6.88
+Vins: 7  | TxSize: 1593 | Speed: (6h)  | Cost(BTC): 0.00477900 | Cost(EUR): 17.20
+Vins: 7  | TxSize: 1593 | Speed: (1h)  | Cost(BTC): 0.00637200 | Cost(EUR): 22.94
+Vins: 7  | TxSize: 1593 | Speed: (10m) | Cost(BTC): 0.00796500 | Cost(EUR): 28.67
 -----------------------------------------------------------------------------------
-Vins: 8  | TxWeight: 1802 | Speed: (24h) | Cost(BTC): 0.00090100 | Cost(EUR):  3.24
-Vins: 8  | TxWeight: 1802 | Speed: (12h) | Cost(BTC): 0.00216240 | Cost(EUR):  7.78
-Vins: 8  | TxWeight: 1802 | Speed: (6h)  | Cost(BTC): 0.00540600 | Cost(EUR): 19.46
-Vins: 8  | TxWeight: 1802 | Speed: (1h)  | Cost(BTC): 0.00720800 | Cost(EUR): 25.95
-Vins: 8  | TxWeight: 1802 | Speed: (10m) | Cost(BTC): 0.00901000 | Cost(EUR): 32.44
+Vins: 8  | TxSize: 1802 | Speed: (24h) | Cost(BTC): 0.00090100 | Cost(EUR):  3.24
+Vins: 8  | TxSize: 1802 | Speed: (12h) | Cost(BTC): 0.00216240 | Cost(EUR):  7.78
+Vins: 8  | TxSize: 1802 | Speed: (6h)  | Cost(BTC): 0.00540600 | Cost(EUR): 19.46
+Vins: 8  | TxSize: 1802 | Speed: (1h)  | Cost(BTC): 0.00720800 | Cost(EUR): 25.95
+Vins: 8  | TxSize: 1802 | Speed: (10m) | Cost(BTC): 0.00901000 | Cost(EUR): 32.44
 -----------------------------------------------------------------------------------
-Vins: 9  | TxWeight: 2011 | Speed: (24h) | Cost(BTC): 0.00100550 | Cost(EUR):  3.62
-Vins: 9  | TxWeight: 2011 | Speed: (12h) | Cost(BTC): 0.00241320 | Cost(EUR):  8.69
-Vins: 9  | TxWeight: 2011 | Speed: (6h)  | Cost(BTC): 0.00603300 | Cost(EUR): 21.72
-Vins: 9  | TxWeight: 2011 | Speed: (1h)  | Cost(BTC): 0.00804400 | Cost(EUR): 28.96
-Vins: 9  | TxWeight: 2011 | Speed: (10m) | Cost(BTC): 0.01005500 | Cost(EUR): 36.20
+Vins: 9  | TxSize: 2011 | Speed: (24h) | Cost(BTC): 0.00100550 | Cost(EUR):  3.62
+Vins: 9  | TxSize: 2011 | Speed: (12h) | Cost(BTC): 0.00241320 | Cost(EUR):  8.69
+Vins: 9  | TxSize: 2011 | Speed: (6h)  | Cost(BTC): 0.00603300 | Cost(EUR): 21.72
+Vins: 9  | TxSize: 2011 | Speed: (1h)  | Cost(BTC): 0.00804400 | Cost(EUR): 28.96
+Vins: 9  | TxSize: 2011 | Speed: (10m) | Cost(BTC): 0.01005500 | Cost(EUR): 36.20
 -----------------------------------------------------------------------------------
-Vins: 10 | TxWeight: 2220 | Speed: (24h) | Cost(BTC): 0.00111000 | Cost(EUR):  4.00
-Vins: 10 | TxWeight: 2220 | Speed: (12h) | Cost(BTC): 0.00266400 | Cost(EUR):  9.59
-Vins: 10 | TxWeight: 2220 | Speed: (6h)  | Cost(BTC): 0.00666000 | Cost(EUR): 23.98
-Vins: 10 | TxWeight: 2220 | Speed: (1h)  | Cost(BTC): 0.00888000 | Cost(EUR): 31.97
-Vins: 10 | TxWeight: 2220 | Speed: (10m) | Cost(BTC): 0.01110000 | Cost(EUR): 39.96
+Vins: 10 | TxSize: 2220 | Speed: (24h) | Cost(BTC): 0.00111000 | Cost(EUR):  4.00
+Vins: 10 | TxSize: 2220 | Speed: (12h) | Cost(BTC): 0.00266400 | Cost(EUR):  9.59
+Vins: 10 | TxSize: 2220 | Speed: (6h)  | Cost(BTC): 0.00666000 | Cost(EUR): 23.98
+Vins: 10 | TxSize: 2220 | Speed: (1h)  | Cost(BTC): 0.00888000 | Cost(EUR): 31.97
+Vins: 10 | TxSize: 2220 | Speed: (10m) | Cost(BTC): 0.01110000 | Cost(EUR): 39.96
 -----------------------------------------------------------------------------------
 
 
              =============== Fees  After Segwit ===============
 
-Vins: 1  | TxWeight: 204  | Speed: (24h) | Cost(BTC): 0.00010200 | Cost(EUR):  0.37
-Vins: 1  | TxWeight: 204  | Speed: (12h) | Cost(BTC): 0.00024480 | Cost(EUR):  0.88
-Vins: 1  | TxWeight: 204  | Speed: (6h)  | Cost(BTC): 0.00061200 | Cost(EUR):  2.20
-Vins: 1  | TxWeight: 204  | Speed: (1h)  | Cost(BTC): 0.00081600 | Cost(EUR):  2.94
-Vins: 1  | TxWeight: 204  | Speed: (10m) | Cost(BTC): 0.00102000 | Cost(EUR):  3.67
+Vins: 1  | TxSize: 204  | Speed: (24h) | Cost(BTC): 0.00010200 | Cost(EUR):  0.37
+Vins: 1  | TxSize: 204  | Speed: (12h) | Cost(BTC): 0.00024480 | Cost(EUR):  0.88
+Vins: 1  | TxSize: 204  | Speed: (6h)  | Cost(BTC): 0.00061200 | Cost(EUR):  2.20
+Vins: 1  | TxSize: 204  | Speed: (1h)  | Cost(BTC): 0.00081600 | Cost(EUR):  2.94
+Vins: 1  | TxSize: 204  | Speed: (10m) | Cost(BTC): 0.00102000 | Cost(EUR):  3.67
 -----------------------------------------------------------------------------------
-Vins: 2  | TxWeight: 278  | Speed: (24h) | Cost(BTC): 0.00013900 | Cost(EUR):  0.50
-Vins: 2  | TxWeight: 278  | Speed: (12h) | Cost(BTC): 0.00033360 | Cost(EUR):  1.20
-Vins: 2  | TxWeight: 278  | Speed: (6h)  | Cost(BTC): 0.00083400 | Cost(EUR):  3.00
-Vins: 2  | TxWeight: 278  | Speed: (1h)  | Cost(BTC): 0.00111200 | Cost(EUR):  4.00
-Vins: 2  | TxWeight: 278  | Speed: (10m) | Cost(BTC): 0.00139000 | Cost(EUR):  5.00
+Vins: 2  | TxSize: 278  | Speed: (24h) | Cost(BTC): 0.00013900 | Cost(EUR):  0.50
+Vins: 2  | TxSize: 278  | Speed: (12h) | Cost(BTC): 0.00033360 | Cost(EUR):  1.20
+Vins: 2  | TxSize: 278  | Speed: (6h)  | Cost(BTC): 0.00083400 | Cost(EUR):  3.00
+Vins: 2  | TxSize: 278  | Speed: (1h)  | Cost(BTC): 0.00111200 | Cost(EUR):  4.00
+Vins: 2  | TxSize: 278  | Speed: (10m) | Cost(BTC): 0.00139000 | Cost(EUR):  5.00
 -----------------------------------------------------------------------------------
-Vins: 3  | TxWeight: 352  | Speed: (24h) | Cost(BTC): 0.00017600 | Cost(EUR):  0.63
-Vins: 3  | TxWeight: 352  | Speed: (12h) | Cost(BTC): 0.00042240 | Cost(EUR):  1.52
-Vins: 3  | TxWeight: 352  | Speed: (6h)  | Cost(BTC): 0.00105600 | Cost(EUR):  3.80
-Vins: 3  | TxWeight: 352  | Speed: (1h)  | Cost(BTC): 0.00140800 | Cost(EUR):  5.07
-Vins: 3  | TxWeight: 352  | Speed: (10m) | Cost(BTC): 0.00176000 | Cost(EUR):  6.34
+Vins: 3  | TxSize: 352  | Speed: (24h) | Cost(BTC): 0.00017600 | Cost(EUR):  0.63
+Vins: 3  | TxSize: 352  | Speed: (12h) | Cost(BTC): 0.00042240 | Cost(EUR):  1.52
+Vins: 3  | TxSize: 352  | Speed: (6h)  | Cost(BTC): 0.00105600 | Cost(EUR):  3.80
+Vins: 3  | TxSize: 352  | Speed: (1h)  | Cost(BTC): 0.00140800 | Cost(EUR):  5.07
+Vins: 3  | TxSize: 352  | Speed: (10m) | Cost(BTC): 0.00176000 | Cost(EUR):  6.34
 -----------------------------------------------------------------------------------
-Vins: 4  | TxWeight: 426  | Speed: (24h) | Cost(BTC): 0.00021300 | Cost(EUR):  0.77
-Vins: 4  | TxWeight: 426  | Speed: (12h) | Cost(BTC): 0.00051120 | Cost(EUR):  1.84
-Vins: 4  | TxWeight: 426  | Speed: (6h)  | Cost(BTC): 0.00127800 | Cost(EUR):  4.60
-Vins: 4  | TxWeight: 426  | Speed: (1h)  | Cost(BTC): 0.00170400 | Cost(EUR):  6.13
-Vins: 4  | TxWeight: 426  | Speed: (10m) | Cost(BTC): 0.00213000 | Cost(EUR):  7.67
+Vins: 4  | TxSize: 426  | Speed: (24h) | Cost(BTC): 0.00021300 | Cost(EUR):  0.77
+Vins: 4  | TxSize: 426  | Speed: (12h) | Cost(BTC): 0.00051120 | Cost(EUR):  1.84
+Vins: 4  | TxSize: 426  | Speed: (6h)  | Cost(BTC): 0.00127800 | Cost(EUR):  4.60
+Vins: 4  | TxSize: 426  | Speed: (1h)  | Cost(BTC): 0.00170400 | Cost(EUR):  6.13
+Vins: 4  | TxSize: 426  | Speed: (10m) | Cost(BTC): 0.00213000 | Cost(EUR):  7.67
 -----------------------------------------------------------------------------------
-Vins: 5  | TxWeight: 500  | Speed: (24h) | Cost(BTC): 0.00025000 | Cost(EUR):  0.90
-Vins: 5  | TxWeight: 500  | Speed: (12h) | Cost(BTC): 0.00060000 | Cost(EUR):  2.16
-Vins: 5  | TxWeight: 500  | Speed: (6h)  | Cost(BTC): 0.00150000 | Cost(EUR):  5.40
-Vins: 5  | TxWeight: 500  | Speed: (1h)  | Cost(BTC): 0.00200000 | Cost(EUR):  7.20
-Vins: 5  | TxWeight: 500  | Speed: (10m) | Cost(BTC): 0.00250000 | Cost(EUR):  9.00
+Vins: 5  | TxSize: 500  | Speed: (24h) | Cost(BTC): 0.00025000 | Cost(EUR):  0.90
+Vins: 5  | TxSize: 500  | Speed: (12h) | Cost(BTC): 0.00060000 | Cost(EUR):  2.16
+Vins: 5  | TxSize: 500  | Speed: (6h)  | Cost(BTC): 0.00150000 | Cost(EUR):  5.40
+Vins: 5  | TxSize: 500  | Speed: (1h)  | Cost(BTC): 0.00200000 | Cost(EUR):  7.20
+Vins: 5  | TxSize: 500  | Speed: (10m) | Cost(BTC): 0.00250000 | Cost(EUR):  9.00
 -----------------------------------------------------------------------------------
-Vins: 6  | TxWeight: 574  | Speed: (24h) | Cost(BTC): 0.00028700 | Cost(EUR):  1.03
-Vins: 6  | TxWeight: 574  | Speed: (12h) | Cost(BTC): 0.00068880 | Cost(EUR):  2.48
-Vins: 6  | TxWeight: 574  | Speed: (6h)  | Cost(BTC): 0.00172200 | Cost(EUR):  6.20
-Vins: 6  | TxWeight: 574  | Speed: (1h)  | Cost(BTC): 0.00229600 | Cost(EUR):  8.27
-Vins: 6  | TxWeight: 574  | Speed: (10m) | Cost(BTC): 0.00287000 | Cost(EUR): 10.33
+Vins: 6  | TxSize: 574  | Speed: (24h) | Cost(BTC): 0.00028700 | Cost(EUR):  1.03
+Vins: 6  | TxSize: 574  | Speed: (12h) | Cost(BTC): 0.00068880 | Cost(EUR):  2.48
+Vins: 6  | TxSize: 574  | Speed: (6h)  | Cost(BTC): 0.00172200 | Cost(EUR):  6.20
+Vins: 6  | TxSize: 574  | Speed: (1h)  | Cost(BTC): 0.00229600 | Cost(EUR):  8.27
+Vins: 6  | TxSize: 574  | Speed: (10m) | Cost(BTC): 0.00287000 | Cost(EUR): 10.33
 -----------------------------------------------------------------------------------
-Vins: 7  | TxWeight: 648  | Speed: (24h) | Cost(BTC): 0.00032400 | Cost(EUR):  1.17
-Vins: 7  | TxWeight: 648  | Speed: (12h) | Cost(BTC): 0.00077760 | Cost(EUR):  2.80
-Vins: 7  | TxWeight: 648  | Speed: (6h)  | Cost(BTC): 0.00194400 | Cost(EUR):  7.00
-Vins: 7  | TxWeight: 648  | Speed: (1h)  | Cost(BTC): 0.00259200 | Cost(EUR):  9.33
-Vins: 7  | TxWeight: 648  | Speed: (10m) | Cost(BTC): 0.00324000 | Cost(EUR): 11.66
+Vins: 7  | TxSize: 648  | Speed: (24h) | Cost(BTC): 0.00032400 | Cost(EUR):  1.17
+Vins: 7  | TxSize: 648  | Speed: (12h) | Cost(BTC): 0.00077760 | Cost(EUR):  2.80
+Vins: 7  | TxSize: 648  | Speed: (6h)  | Cost(BTC): 0.00194400 | Cost(EUR):  7.00
+Vins: 7  | TxSize: 648  | Speed: (1h)  | Cost(BTC): 0.00259200 | Cost(EUR):  9.33
+Vins: 7  | TxSize: 648  | Speed: (10m) | Cost(BTC): 0.00324000 | Cost(EUR): 11.66
 -----------------------------------------------------------------------------------
-Vins: 8  | TxWeight: 722  | Speed: (24h) | Cost(BTC): 0.00036100 | Cost(EUR):  1.30
-Vins: 8  | TxWeight: 722  | Speed: (12h) | Cost(BTC): 0.00086640 | Cost(EUR):  3.12
-Vins: 8  | TxWeight: 722  | Speed: (6h)  | Cost(BTC): 0.00216600 | Cost(EUR):  7.80
-Vins: 8  | TxWeight: 722  | Speed: (1h)  | Cost(BTC): 0.00288800 | Cost(EUR): 10.40
-Vins: 8  | TxWeight: 722  | Speed: (10m) | Cost(BTC): 0.00361000 | Cost(EUR): 13.00
+Vins: 8  | TxSize: 722  | Speed: (24h) | Cost(BTC): 0.00036100 | Cost(EUR):  1.30
+Vins: 8  | TxSize: 722  | Speed: (12h) | Cost(BTC): 0.00086640 | Cost(EUR):  3.12
+Vins: 8  | TxSize: 722  | Speed: (6h)  | Cost(BTC): 0.00216600 | Cost(EUR):  7.80
+Vins: 8  | TxSize: 722  | Speed: (1h)  | Cost(BTC): 0.00288800 | Cost(EUR): 10.40
+Vins: 8  | TxSize: 722  | Speed: (10m) | Cost(BTC): 0.00361000 | Cost(EUR): 13.00
 -----------------------------------------------------------------------------------
-Vins: 9  | TxWeight: 796  | Speed: (24h) | Cost(BTC): 0.00039800 | Cost(EUR):  1.43
-Vins: 9  | TxWeight: 796  | Speed: (12h) | Cost(BTC): 0.00095520 | Cost(EUR):  3.44
-Vins: 9  | TxWeight: 796  | Speed: (6h)  | Cost(BTC): 0.00238800 | Cost(EUR):  8.60
-Vins: 9  | TxWeight: 796  | Speed: (1h)  | Cost(BTC): 0.00318400 | Cost(EUR): 11.46
-Vins: 9  | TxWeight: 796  | Speed: (10m) | Cost(BTC): 0.00398000 | Cost(EUR): 14.33
+Vins: 9  | TxSize: 796  | Speed: (24h) | Cost(BTC): 0.00039800 | Cost(EUR):  1.43
+Vins: 9  | TxSize: 796  | Speed: (12h) | Cost(BTC): 0.00095520 | Cost(EUR):  3.44
+Vins: 9  | TxSize: 796  | Speed: (6h)  | Cost(BTC): 0.00238800 | Cost(EUR):  8.60
+Vins: 9  | TxSize: 796  | Speed: (1h)  | Cost(BTC): 0.00318400 | Cost(EUR): 11.46
+Vins: 9  | TxSize: 796  | Speed: (10m) | Cost(BTC): 0.00398000 | Cost(EUR): 14.33
 -----------------------------------------------------------------------------------
-Vins: 10 | TxWeight: 870  | Speed: (24h) | Cost(BTC): 0.00043500 | Cost(EUR):  1.57
-Vins: 10 | TxWeight: 870  | Speed: (12h) | Cost(BTC): 0.00104400 | Cost(EUR):  3.76
-Vins: 10 | TxWeight: 870  | Speed: (6h)  | Cost(BTC): 0.00261000 | Cost(EUR):  9.40
-Vins: 10 | TxWeight: 870  | Speed: (1h)  | Cost(BTC): 0.00348000 | Cost(EUR): 12.53
-Vins: 10 | TxWeight: 870  | Speed: (10m) | Cost(BTC): 0.00435000 | Cost(EUR): 15.66
+Vins: 10 | TxSize: 870  | Speed: (24h) | Cost(BTC): 0.00043500 | Cost(EUR):  1.57
+Vins: 10 | TxSize: 870  | Speed: (12h) | Cost(BTC): 0.00104400 | Cost(EUR):  3.76
+Vins: 10 | TxSize: 870  | Speed: (6h)  | Cost(BTC): 0.00261000 | Cost(EUR):  9.40
+Vins: 10 | TxSize: 870  | Speed: (1h)  | Cost(BTC): 0.00348000 | Cost(EUR): 12.53
+Vins: 10 | TxSize: 870  | Speed: (10m) | Cost(BTC): 0.00435000 | Cost(EUR): 15.66
 -----------------------------------------------------------------------------------
