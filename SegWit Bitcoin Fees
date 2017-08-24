@@ -9,6 +9,12 @@ Segregated Witness Fees Projections (Network is stressed, fasts tx fee is high)
 
 - Vins quantity depends on tx amount \ coin selection \ and may vary with no chances
 
+- Fees (Source, bitcoinfees.21.co @ 24-08-2017)
+10m = 500sat\b
+1h = 400sat\b
+6h = 300sat\b
+12h = 120sat\b
+24h = 50sat\b
 
              =============== Fees Before Segwit ===============
 
