@@ -3,7 +3,7 @@ Segregated Witness Fees Analysis (Network is stressed, fast tx fee is high)
 
 - 2 Standard P2SH Outputs
 
-- Date: 2017-08-25T12:18:23.351608
+- Date: 2017-08-25T12:20:27.364138
 
 - Average P2SH 2-on-3 Vin Size:
   - Segwit: 74 bytes
@@ -12,11 +12,11 @@ Segregated Witness Fees Analysis (Network is stressed, fast tx fee is high)
 - Vins amount depend on amount \ coin selection \ utxo and may vary with no chances
 
 - Fees source - bitcoinfees.21.co.
-  - 10m: 510sayte
-  -  1h: 420sayte
-  -  6h: 330sayte
-  - 12h: 300sayte
-  - 24h: 270sayte
+  - 10m: 510sat\byte
+  -  1h: 420sat\byte
+  -  6h: 330sat\byte
+  - 12h: 300sat\byte
+  - 24h: 270sat\byte
 
 - BTCEUR Exchange Rate Source: Kraken, value: 3732.00
 
